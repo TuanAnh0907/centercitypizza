@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
 
@@ -19,6 +19,41 @@
     <script type="text/javascript" src="http://www.appcoco.com/centercitypizza/mobile.js"></script>
 
     <script language="JavaScript" type="text/JavaScript" src="scripts/core.js"></script>
+
+    <style type="text/css">
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown a {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            margin: 0;
+            padding: 0 !important;
+            width: 150px;
+            cursor: pointer;
+            z-index: 99;
+            background: #929390;
+            text-align: start !important;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content li {
+            list-style: none;
+        }
+
+        .dropdown-content a:hover {
+            color: #ddaa44;
+        }
+    </style>
 </head>
 
 <script type="text/javascript" src="http://www.appcoco.com/centercitypizza/mobile.js"></script>
@@ -39,19 +74,6 @@
             href="./"><img src="images/CenterCity-Main_03.gif" alt="Center City Pizza : Home of the Giant Slice"
                            width="305" height="177" border="0"/></a><img src="images/CenterCity-Main_04.jpg" alt=""
                                                                          width="254" height="177"/>
-            <div id="footer-links"><a href="index.html">Home</a> &bull; <a href="menu.html">Menu</a> &bull; <a
-                href="specials.html">Specials</a> &bull; <a href="catering.html">Catering</a> &bull; <a
-                href="location.html">Store Info</a>
-                <div class="social"><a href="http://www.facebook.com/pages/Center-City-Pizza/119826898079154"
-                                       target="_blank" title="Find Us On Facebook"><img src="images/facebook.png"
-                                                                                        alt="Find Us On Facebook"
-                                                                                        width="24" height="24"
-                                                                                        hspace="3" vspace="4"
-                                                                                        border="0"/></a> <a
-                    href="http://twitter.com/centercitypizza" target="_blank" title="Follow Us On Twitter!"><img
-                    src="images/twitter-2.png" alt="Follow Us On Twitter!" width="24" height="24" hspace="3" vspace="4"
-                    border="0"/></a></div>
-            </div>
         </div>
         <!-- END HEADER -->
 
@@ -61,6 +83,29 @@
         <!-- END MAIN CONTENT -->
 
     </div>
+    <div id="footer-links" style="width: 812px!important; margin: auto">
+        <a href="index.html">Home</a> &bull; <a href="menu.html">Menu</a> &bull; <a href="specials.html">Specials</a>
+        &bull; <a href="catering.html">Catering</a> &bull; <a href="location.html">Store Info</a> &bull;
+        <div class="dropdown">
+            <a href="#" title="Cities">Cities</a>
+            <ul class="dropdown-content">
+                <li><a>Ha Noi</a></li>
+                <li><a>TP.Ho Chi Minh</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <a href="http://www.facebook.com/pages/Center-City-Pizza/119826898079154"
+               target="_blank" title="Find Us On Facebook">
+                <img src="images/facebook.png" alt="Find Us On Facebook" width="24" height="24" hspace="3"
+                     vspace="4" border="0"/>
+            </a>
+            <a href="http://twitter.com/centercitypizza" target="_blank" title="Follow Us On Twitter!"><img
+                src="images/twitter-2.png" alt="Follow Us On Twitter!" width="24" height="24" hspace="3"
+                vspace="4" border="0"/>
+            </a>
+        </div>
+    </div>
+
 
     <!-- BEGIN FOOTER -->
     <div id="footer">
@@ -88,14 +133,63 @@
                 the most unique pizzeria restaurants in the area. <br/>
                 <strong><em><br/>
                     Come by for a GIANT size slice or two...........We look forward to serving you!</em></strong><br/>
-                &nbsp;
             </div>
+
+            <div>
+                <section style="margin-top:10px; border-radius: 15px; padding: 10px">
+                    <h2 style="color: #2E8B57; font-weight: bolder; font-size: 35px">Bài viết mới nhất</h2>
+                    <ul class="list-articles" style="list-style: none; padding: 0">
+                        <li class="article-item">
+                            <a href="https://amthucbinhxuyen.com/post/tong-hop-16-quan-nhau-tai-phuong-4-quan-10.p664">
+                                Tổng hợp 16 quán nhậu tại Phường 4 Quận 10
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="https://amthucbinhxuyen.com/post/tong-hop-11-quan-tra-sua-tai-phuong-4-quan-10.p663">
+                                Tổng hợp 11 quán trà sữa tại Phường 4 Quận 10
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="https://amthucbinhxuyen.com/post/top-17-quan-cafe-tai-phuong-15-quan-4.p662">
+                                Top 17 quán cafe tại Phường 15 Quận 4
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="https://amthucbinhxuyen.com/post/top-11-quan-nhau-tai-phuong-8-quan-11.p661">
+                                Top 11 quán nhậu tại Phường 8 Quận 11
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="https://amthucbinhxuyen.com/post/danh-sach-10-quan-an-sang-tai-phuong-5-quan-6.p660">
+                                Danh sách 10 quán ăn sáng tại Phường 5 Quận 6
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="https://amthucbinhxuyen.com/post/danh-sach-13-quan-nhau-tai-phuong-5-quan-6.p659">
+                                Danh sách 13 quán nhậu tại Phường 5 Quận 6
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="https://amthucbinhxuyen.com/post/danh-sach-14-quan-nhau-tai-phuong-6-quan-6.p658">
+                                Danh sách 14 quán nhậu tại Phường 6 Quận 6
+                            </a>
+                        </li>
+                        <li class="article-item">
+                            <a href="https://amthucbinhxuyen.com/post/top-15-quan-cafe-tai-phuong-5-quan-6.p657">
+                                Top 15 quán cafe tại Phường 5 Quận 6
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
             <div class="copyright">Prices &amp; menu items subject to change without notice. Prices shown do not include
                 sales tax.<br/>
                 Copyright &copy; Center City Pizza
             </div>
         </div>
     </div>
+
 </div>
 
 </body>
