@@ -1,0 +1,1022 @@
+body {
+    background-image: url(/images/CC-bgT.jpg);
+    background-position: left top;
+    color: #000000;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: #CCB15F;
+}
+
+.fltlft {
+    float: left
+}
+
+.fltrt {
+    float: right
+}
+
+.clrflt {
+    float: none;
+    clear: both;
+    font-size: 1px;
+}
+
+.fltrt .highlight {
+    margin-right: 15px;
+    background: #fff;
+    text-align: center;
+    width: 150px;
+}
+
+.fltlft .highlight {
+
+    margin-left: 15px;
+    background: #fff;
+    text-align: center;
+    width: 150px;
+}
+
+.fltrt .highlight .subheader, .fltlft .highlight .subheader {
+    font-size: 14px;
+}
+
+p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.highlight {
+    border: solid 2px #B70A11;
+    padding: 2px;
+}
+
+.twocolumn .highlight {
+    margin-right: 10px;
+}
+
+a, a:link {
+    color: #3D0C0D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #ED1C24;
+    text-decoration: none;
+    width: 680px;
+}
+
+.green {
+    color: #516635;
+}
+
+.red {
+    color: #B70A11;
+}
+
+.detail {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    color: #000000;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-style: italic;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00602C;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#main-wrapper .header {
+    margin-bottom: 10px;
+    color: #B70A11;
+}
+
+.subheader {
+    font-size: 18px;
+    font-weight: normal;
+    color: #B70A11;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#footer-content .subheader {
+    text-transform: none;
+    color: #DFDEB0;
+}
+
+
+.emphasis {
+    font-weight: bold;
+    color: #B70A11;
+    font-style: italic;
+}
+
+.forminput {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+
+p.backtotop {
+    margin-top: 10px;
+    line-height: 23px;
+}
+
+.backtotop a {
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #B70A11;
+    text-transform: uppercase;
+}
+
+.backtotop a:hover {
+    color: #BC9F55;
+    text-decoration: none;
+}
+
+.backtotop span.fltrt a, .backtotop span.fltrt a:link {
+    color: #ED1C24;
+}
+
+.backtotop span.fltrt a:hover {
+    color: #095F2E;
+}
+
+
+#content-wrapper {
+    background-image: url(/images/CC-bgH.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#content {
+    background-image: url(/images/CenterCity-Main_21.gif);
+    background-repeat: repeat-y;
+    width: 812px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    text-align: left;
+}
+
+#header-img {
+    width: 812px;
+    height: 177px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow: hidden;
+}
+
+.home #header-img {
+    height: 237px;
+}
+
+#header-nav-wrapper {
+    width: 712px;
+    height: 29px;
+    margin: 0px;
+    padding: 0 50px;
+    overflow: hidden;
+    border: 0px;
+    background-image: url(/images/CenterCity-Main_19.gif);
+    background-repeat: repeat-y;
+}
+
+.home #header-nav-wrapper {
+    background-image: none;
+    height: 118px;
+    padding: 0;
+    width: 812px;
+}
+
+#header-nav-wrapper a {
+
+    display: block;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+#header-nav-wrapper a:hover, .home #header-nav-wrapper a:hover {
+
+    background-image: none;
+
+}
+
+
+#header-nav-home {
+    background: url('/images/buttons-on_07.gif');
+    width: 60px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+    height: 20px;
+    margin-right: 80px;
+}
+
+#header-nav-home a {
+
+    background: url('/images/buttons_07.gif');
+
+}
+
+
+#header-nav-menu {
+    background: url('/images/buttons-on_09.gif');
+    width: 80px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    float: left;
+    margin-right: 90px;
+}
+
+.home #header-nav-menu {
+    width: 197px;
+    height: 118px;
+    margin: 0px;
+}
+
+#header-nav-menu a {
+    background: url('/images/buttons_09.gif');
+}
+
+.home #header-nav-menu a {
+
+}
+
+
+#header-nav-coupons {
+    background: url('/images/buttons-on_11.gif');
+    width: 90px;
+    height: 19px;
+    margin: 0;
+    padding: 0px;
+    border: 0px;
+    float: left;
+    margin-right: 80px;
+}
+
+.home #header-nav-coupons {
+    width: 178px;
+    height: 118px;
+    margin: 0px;
+}
+
+#header-nav-coupons a {
+    background: url('/images/buttons_11.gif');
+}
+
+.home #header-nav-coupons a {
+
+}
+
+
+#header-nav-feedback {
+    background: url('/images/buttons-on_17.gif');
+    width: 85px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: right;
+}
+
+.home #header-nav-feedback {
+    width: 174px;
+    height: 118px;
+    float: left;
+    margin: 0px;
+}
+
+#header-nav-feedback a {
+    background: url('/images/buttons_17.gif');
+}
+
+.home #header-nav-feedback a {
+
+
+}
+
+#header-nav-location {
+    background: url('/images/buttons-on_15.gif');
+    width: 89px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+    height: 20px;
+}
+
+.home #header-nav-catering {
+    width: 183px;
+    height: 118px;
+    margin: 0px;
+
+}
+
+#header-nav-location a {
+    background: url('/images/buttons_15.gif');
+}
+
+.home #header-nav-location a {
+
+}
+
+#header-nav-catering {
+    background: url('/images/buttons-on_13.gif');
+    width: 88px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+    margin-right: 50px;
+}
+
+.home #header-nav-location {
+    width: 202px;
+    height: 118px;
+    margin: 0px;
+}
+
+.home #header-nav-blank {
+    width: 52px;
+    height: 118px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+}
+
+#header-nav-catering a {
+    background: url('/images/buttons_13.gif');
+}
+
+.home #header-nav-catering a {
+
+
+}
+
+
+#header-bottom {
+    background-image: url(/images/CenterCity-Main_20.gif);
+    width: 812px;
+    height: 7px;
+    margin: 0 auto;
+    padding: 0px;
+    border: 0px;
+    overflow: hidden;
+    clear: both;
+}
+
+.home #header-bottom {
+    height: 185px;
+}
+
+
+#footer {
+    background-repeat: no-repeat;
+    width: 812px;
+    padding: 0px;
+    text-align: left;
+    margin: 0 auto 10px auto;
+    float: none;
+    background-image: url(/images/CenterCity-Main_24.gif);
+}
+
+.home #footer {
+    background-image: none;
+
+}
+
+#footer-content {
+    width: 812px;
+    background-repeat: no-repeat;
+    min-height: 127px;
+    height: 127px;
+    height: auto !important;
+}
+
+#footer-content p {
+    margin: 0px;
+    padding: 10px 0 15px 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.home #footer-content p {
+    padding: 10px 0;
+}
+
+#footer-content a, #footer-content a:link {
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer-content a:hover {
+    color: #B70A11;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer-links a, #footer-links a:link {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#footer-links a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 9px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    clear: both;
+    float: none;
+    text-align: center;
+}
+
+#menu-wrapper, #main-wrapper {
+    display: block;
+    width: 812px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    min-height: 109px;
+    height: auto !important;
+    height: 109px;
+}
+
+#main-wrapper .sectionL {
+    width: 425px;
+    margin-left: 31px;
+}
+
+#main-wrapper .sectionR {
+    width: 450px;
+    margin-left: 331px;
+}
+
+#menu-wrapper .sectionL {
+    width: 525px;
+    margin-left: 31px;
+}
+
+#menu-wrapper .sectionR {
+    width: 525px;
+    margin-left: 256px;
+}
+
+.section {
+    width: 756px;
+    margin-left: 31px;
+}
+
+#menu-wrapper p {
+    font-weight: normal;
+    margin: 8px 10px 8px 0;
+    color: #B70A11;
+    font-size: 14px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+.onecolumn {
+    width: 100%;
+    clear: both;
+}
+
+.twocolumn {
+    width: 50%;
+    float: left;
+    clear: right;
+}
+
+#home-content {
+    padding-top: 0px;
+    min-height: 250px;
+    height: auto !important;
+    height: 250px;
+}
+
+#specials-content {
+    display: block;
+    width: 800px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+.specials {
+    margin-bottom: 2px;
+    border: 3px dashed #B70A11;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    margin-right: 10px;
+}
+
+.specialsheader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #B70A11;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.specialscontent {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin: 5px;
+}
+
+.fineprint {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 12px;
+    color: #000000;
+    margin: 5px;
+    text-align: center;
+}
+
+#menulinks-content {
+    width: 750px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 35px;
+    text-transform: uppercase;
+}
+
+#menulinks-content p {
+    font-size: 10px;
+    color: #B70A11;
+    margin: 0px;
+    font-weight: normal;
+}
+
+#menulinks-content span.fltlft {
+    font-size: 20px;
+    margin-right: 5px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#menu-content-appetizers {
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height: 274px;
+    height: auto !important;
+    height: 274px;
+}
+
+.catering #menu-content-appetizers {
+
+}
+
+#menu-content-salads {
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.catering #menu-content-salads {
+
+}
+
+#menu-content-calzones {
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height: 214px;
+    height: auto !important;
+    height: 214px;
+    padding-top: 30px;
+}
+
+#menu-content-create {
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 342px;
+    height: auto !important;
+    height: 342px;
+}
+
+#menu-content-pizza2 {
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height: 193px;
+    height: auto !important;
+    height: 193px;
+    padding-top: 40px;
+}
+
+#menu-content-pizza {
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 386px;
+    height: auto !important;
+    height: 386px;
+}
+
+
+#menu-content-entrees {
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height: 326px;
+    height: auto !important;
+    height: 326px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.catering #menu-content-entrees {
+
+}
+
+#menu-content-entrees .sectionR {
+    margin-left: 0;
+    float: right;
+}
+
+#menu-content-pasta {
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 214px;
+    height: auto !important;
+    height: 214px;
+}
+
+#menu-content-subs {
+    background-repeat: no-repeat;
+    background-position: right center;
+    min-height: 428px;
+    height: auto !important;
+    height: 428px;
+}
+
+.catering #menu-content-subs {
+
+}
+
+#menu-content-focaccia {
+    background-repeat: no-repeat;
+    background-position: left 50px;
+    min-height: 362px;
+    height: auto !important;
+    height: 362px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#menu-content-focaccia .sectionR {
+    margin-left: 0;
+    float: right;
+}
+
+#menu-content-dessert {
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 231px;
+    height: auto !important;
+    height: 231px;
+}
+
+div.group {
+    border: 0;
+    clear: both;
+    color: #000000;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 8px 10px 8px 0;
+}
+
+div.item {
+    font-weight: bold;
+}
+
+div.description {
+    padding: 0;
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    clear: both;
+    font-style: italic;
+}
+
+.price {
+    font-weight: normal;
+    float: right;
+    width: 40px;
+    text-align: right;
+}
+
+div.price {
+    width: 50px;
+    float: right;
+    text-align: right;
+}
+
+.price-fltnone {
+    font-weight: normal;
+}
+
+
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    border: 3px solid #5D5E58;
+    width: 294px;
+    text-align: center;
+    background-color: #65663A;
+}
+
+#map a, #map a:link {
+    color: #FFFFFF;
+}
+
+#map a:hover {
+    text-decoration: underline;
+}
+
+#signupform {
+    text-align: left;
+}
+
+#signupform form label {
+    display: block; /* block float the labels to left column, set a width */
+    float: left;
+    width: 80px;
+    padding: 0;
+    margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#signupform form fieldset {
+    margin: 0 0 5px 0;
+    padding-left: 10px;
+    border: 1px solid #B70A11;
+    clear: both;
+}
+
+#signupform form fieldset.submit {
+    clear: both;
+    border: none; /* padding in fieldset support spotty in IE */
+    margin: 0;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+#signupform form fieldset legend {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #516635;
+    font-weight: bold;
+}
+
+#signupform form input, #signupform form textarea {
+    /* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+    width: auto; /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+    margin: 5px 0 0 10px; /* set margin on left of form elements rather than right of label aligns textarea better in IE */
+    border: 1px solid #999;
+    color: #666666;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+}
+
+#signupform form input:focus, #signupform form textarea:focus {
+    border: 1px solid #B70A11;
+    color: #000000;
+}
+
+#signupform form input#reset {
+    margin-left: 10px; /* set margin-left back to zero on reset button (set above) */
+}
+
+#signupform textarea {
+    overflow: auto;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#signupform form #mailingList {
+    border: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+#signupform form .mailingList {
+    float: left;
+    width: auto;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+#signupform .surname {
+    display: none;
+}
+
+
+#footer-links {
+    height: 35px;
+    line-height: 35px;
+    background-image: url(/images/CenterCity-Main_23.gif);
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+
+.home #footer-links {
+    background-image: url(/images/CenterCity-Home_12.gif);
+    height: 30px;
+    line-height: 25px;
+}
+
+#footer-content #order-online {
+    margin-top: 10px;
+    float: left;
+    width: 184px;
+    height: 126px;
+    overflow: hidden;
+    background-image: url(/images/btn-order-on.gif);
+}
+
+#footer-content #order-online a, #footer-content #order-online a:link {
+    background-image: url(/images/btn-order.gif);
+    display: block;
+    height: 100%;
+
+}
+
+#footer-content #order-online a:hover {
+    background-image: none;
+
+}
+
+#required-info #surname {
+    display: none;
+}
+
+#dhtmltooltip {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    position: absolute;
+    color: #990000;
+    visibility: hidden;
+    z-index: 100;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#menu-content-create .price {
+    width: 80px;
+    text-align: center;
+}
+
+#location-content .subheader {
+    color: #005F2B;
+}
+
+#location-content p {
+    font-size: 16px;
+}
+
+div.center-with-float {
+    position: relative;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.center-with-float span.rtalign {
+    position: absolute;
+    right: 10px;
+}
+
+.specialscontent span.price {
+    background-color: #B70A11;
+    text-align: center;
+    width: auto;
+    padding: 5px;
+    margin-right: -10px;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#footer-content .header {
+    color: #3D0C0D;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.addon {
+    font-size: 11px;
+}
+
+#main-wrapper #location-content .sectionR {
+    margin-left: 10px;
+    float: right;
+    width: 300px;
+    padding-right: 31px;
+}
+
+#main-wrapper #location-content .sectionL {
+    float: right;
+    width: 435px;
+}
+
+#about-content {
+    background-image: url(/images/bg-about.jpg);
+    background-repeat: no-repeat;
+    min-height: 277px;
+    height: auto !important;
+    height: 277px;
+}
+
+#footer-links div.social {
+    position: absolute;
+    right: 10px;
+    width: auto;
+    height: 30px;
+    top: 0px;
+    line-height: 1em;
+}
+
+#footer-links .social a {
+    padding: 0px;
+}
+
+.menuitem {
+    color: #8f0a03;
+}
+
+/*
+     FILE ARCHIVED ON 19:48:54 May 03, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:46:41 Jul 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.482
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.016
+  esindex: 0.01
+  cdx.remote: 7.8
+  LoadShardBlock: 615.61 (3)
+  PetaboxLoader3.datanode: 397.487 (4)
+  PetaboxLoader3.resolve: 254.467 (2)
+  load_resource: 169.454
+*/
